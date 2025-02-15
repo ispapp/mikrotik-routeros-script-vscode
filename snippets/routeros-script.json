@@ -1,0 +1,42 @@
+{
+  "Global Function": {
+    "prefix": "gfunc",
+    "body": [
+      "# ${1:Function description}",
+      "# Parameters:",
+      "#   ${2:param} - ${3:description}",
+      "# Returns:",
+      "#   ${4:return description}",
+      ":global ${5:functionName} do={",
+      "    ${0}",
+      "}"
+    ],
+    "description": "Create a global function with documentation"
+  },
+  "If Statement": {
+    "prefix": "if",
+    "body": [
+      ":if (${1:condition}) do={",
+      "    ${0}",
+      "}"
+    ]
+  },
+  "Foreach Loop": {
+    "prefix": "foreach",
+    "body": [
+      ":foreach ${1:item} in=${2:collection} do={",
+      "    ${0}",
+      "}"
+    ]
+  },
+  "Error Handler": {
+    "prefix": "try",
+    "body": [
+      "do {",
+      "    ${1}",
+      "} on-error={",
+      "    :log error \"${2:Error message}\"",
+      "}"
+    ]
+  }
+}

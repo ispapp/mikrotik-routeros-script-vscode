@@ -1,0 +1,60 @@
+{
+  "name": "mikrotik-routeros-script",
+  "displayName": "MikroTik RouterOS Script",
+  "description": "MikroTik RouterOS Script Development Tools with Function Navigation, Documentation, and Intelligent Code Completion",
+  "version": "1.1.0",
+  "publisher": "ispapp",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ispapp/mikrotik-routeros-script-vscode"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Other"
+  ],
+  "keywords": [
+    "mikrotik",
+    "RouterOS",
+    "networking",
+    "script"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [{
+      "id": "routeros-script",
+      "aliases": ["RouterOS Script", "routeros"],
+      "extensions": [".rsc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "routeros-script",
+      "scopeName": "source.routeros-script",
+      "path": "./syntaxes/routeros-script.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "routeros-script",
+      "path": "./snippets/routeros-script.json"
+    }]
+  },
+  "capabilities": {
+    "hoverProvider": "true",
+    "definitionProvider": "true",
+    "referencesProvider": "true",
+    "documentSymbolProvider": "true",
+    "completionProvider": {
+      "triggerCharacters": ["$", ":"]
+    },
+    "signatureHelpProvider": {
+      "triggerCharacters": ["(", ","]
+    },
+    "documentFormattingProvider": true,
+    "foldingRangeProvider": true,
+    "codeActionProvider": true
+  }
+}
