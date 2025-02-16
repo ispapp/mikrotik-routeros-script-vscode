@@ -1,6 +1,6 @@
 {
-  "name": "mikrotik-routeros-script",
-  "displayName": "MikroTik RouterOS Script",
+  "name": "mikrotik-routeros-script-tools",
+  "displayName": "MikroTik RouterOS Script Development Tools",
   "description": "MikroTik RouterOS Script Development Tools with Function Navigation, Documentation, and Intelligent Code Completion",
   "version": "1.1.0",
   "publisher": "ispapp",

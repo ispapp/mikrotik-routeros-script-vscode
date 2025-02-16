@@ -1,6 +1,11 @@
 # Mikrotik Script Extension
 
-VS Code extension for Mikrotik script syntax highlighting and snippets.
+[![Version](https://img.shields.io/visual-studio-marketplace/v/ispapp.mikrotik-routeros-script-tools)](https://marketplace.visualstudio.com/items?itemName=ispapp.mikrotik-routeros-script-tools)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/ispapp.mikrotik-routeros-script-tools)](https://marketplace.visualstudio.com/items?itemName=ispapp.mikrotik-routeros-script-tools)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/ispapp.mikrotik-routeros-script-tools)](https://marketplace.visualstudio.com/items?itemName=ispapp.mikrotik-routeros-script-tools)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+VS Code extension for Mikrotik script syntax highlighting and snippets. Enhance your RouterOS scripting experience with advanced features like function navigation, documentation, and intelligent code completion.
 
 ![RouterOS Script](images/preview.gif)
 
@@ -30,6 +35,9 @@ VS Code extension for Mikrotik script syntax highlighting and snippets.
 2. Go to Extensions (Ctrl+Shift+X)
 3. Search for "Mikrotik Script"
 4. Click Install
+
+Or install directly from the VS Code Marketplace:
+[VS Code Marketplace - MikroTik RouterOS Script Development Tools](https://marketplace.visualstudio.com/items?itemName=ispapp.mikrotik-routeros-script-tools)
 
 ## Usage
 
